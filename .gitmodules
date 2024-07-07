@@ -1,0 +1,3 @@
+[submodule "submodules/yason"]
+	path = submodules/yason
+	url = https://github.com/sergiocupa/yason.git
