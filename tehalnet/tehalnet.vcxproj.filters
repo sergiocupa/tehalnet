@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{825a06a5-df1a-41a0-a848-1b5667516ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d2f72385-ffe5-4238-8953-53c7ca51d8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layer">
+      <UniqueIdentifier>{05a67a3d-455f-43aa-bdf6-91243a8b9bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{38ef4d1c-b39f-4a2d-9eed-bb228c85fb81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\tehalnet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\GeneralMatrixMultiplier.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\layer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\activation.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\convolutional_layer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\local_layer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\im2col.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\box.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\col2im.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\blas.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\maxpool_layer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\activation_layer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer\batch_normalize_layer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\convolutional_util.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tehalnet_plug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\tehalnet.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\GeneralMatrixMultiplier.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\layer.c">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\activation.c">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\convolutional_layer.c">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tehalnet_init.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\local_layer.c">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\im2col.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\box.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\col2im.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\blas.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\maxpool_layer.c">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\activation_layer.c">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer\batch_normalize_layer.c">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\convolutional_util.c">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tehalnet_plug.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

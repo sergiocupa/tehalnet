@@ -1,0 +1,13 @@
+#include "box.h"
+
+
+
+Box float_to_box_stride(float* f, int stride)
+{
+    Box b = { 0 };
+    b.x = f[0];
+    b.y = f[1 * stride];
+    b.w = f[2 * stride];
+    b.h = f[3 * stride];
+    return b;
+}
